@@ -28,6 +28,7 @@ REST_FRAMEWORK = {
 
 INSTALLED_APPS = [
     'jazzmin',
+    'management',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

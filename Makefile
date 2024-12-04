@@ -9,3 +9,6 @@ makemigrations:
 
 createsuperuser:
 	python3 server/manage.py createsuperuser
+
+startapp:
+	python3 server/manage.py startapp $(app_name)
